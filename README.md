@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+Solar Systems is a drawing website inspired by Draw a Fish in which it lets people draw their own planets, stars, aliens, and other space-related objects to contribute to a soon to be shared universe. In the future, the website will be filled with shared drawings submitted by different users through server hosting. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Current Features 
+* Drawing canvas: Drawing freely usign your mouse only in black. 
+* Undo: Undo your strokes using Cmd + z or ctrl + z/clicking the undo button 
+* Submit: Click the submit drawing to add your drawings. 
+* Random positioning: Drawings are placed at random positions with checks to prevent overlap. 
+* Canvas reset: After submission, the drawing board resets. 
 
-Currently, two official plugins are available:
+Used: 
+* Vite 
+* React
+* TypeScript 
+* HTML 
+* CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+How to use it: 
+1. Click the link: https://solar-systems-nine.vercel.app/
+2. Start drawing your drawing
+3. Submit your drawing
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Demo
+![Solar Systems Demo](./demo.png)
