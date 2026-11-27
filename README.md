@@ -1,4 +1,4 @@
-Solar Systems is a drawing website inspired by Draw a Fish in which it lets people draw their own planets, stars, aliens, and other space-related objects to contribute to a soon to be shared universe. In the future, the website will be filled with shared drawings submitted by different users through server hosting. 
+Solar Systems is a drawing website inspired by Draw a Fish in which it lets people draw their own planets, stars, aliens, and other space-related objects to contribute to a soon to be shared universe. In the future, the website will be filled with shared drawings submitted by different users through web hosting. 
 
 Current Features 
 * Drawing canvas: Drawing freely usign your mouse only in black. 
@@ -18,6 +18,13 @@ How to use it:
 1. Click the link: https://solar-systems-nine.vercel.app/
 2. Start drawing your drawing
 3. Submit your drawing
+
+Future Updates: 
+* Web hosting 
+* More colours 
+* Fixed background 
+* Pixilated effect 
+* Movement 
 
 Demo
 ![Solar Systems Demo](./demo.png)
